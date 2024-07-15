@@ -2,7 +2,7 @@
   "name": "to-do-mern",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "cross-env NODE_ENV=Production node server.js",
     "run": "cross-env NODE_ENV=Development nodemon server.js",

@@ -4,7 +4,7 @@ const connectDB = () => {
     .connect(process.env.MONGO_URL, {
       dbName: "backendapi",
     })
-    .then(() => console.log("MongoDB is connected"))
+    .then((c) => console.log(`MongoDB is connected  with ${c.connection.host}`))
     .catch((err) => console.log("MongoDB connection error", err));
 };
 
